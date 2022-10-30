@@ -37,7 +37,7 @@ import java.io.IOException;
 import java.util.HashMap;
 // Происходит запуск приложения
 public class Program {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         ParsData parsData = new ParsData(); // Создается объект класса ParsData
         String newFileName = null; // Иннициализация переменной
         WriteFile writeFile = new WriteFile(); // Создается объект класса WriteFile
